@@ -1,3 +1,17 @@
+@import "./styles/index";
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  color: $body-color;
+  background-color: $body-bg-color;
+  margin: 20px 17px;
+  font: {
+    family: "Arial", sans-serif;
+    size: 12px;
+    weight: normal;
+    style: normal;
+  }
 }

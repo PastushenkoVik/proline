@@ -1,10 +1,11 @@
 import React from 'react';
-
 import './App.scss';
 
+import TotalSection from './components/TotalSection/TotalSection';
+
 const App = () => (
-  <div className="App">
-    <h1>ViCtor</h1>
+  <div className="main">
+    <TotalSection />
   </div>
 );
 

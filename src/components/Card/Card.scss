@@ -1,0 +1,12 @@
+.card {
+  border-top: 4px solid #e7eaec;
+
+  &__title {
+    height: 50px;
+    margin-bottom: 2px;
+    padding: 16px 17px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
