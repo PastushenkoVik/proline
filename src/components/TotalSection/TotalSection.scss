@@ -2,7 +2,7 @@
 
 .section__total {
   display: grid;
-  grid-gap: 33px;
+  grid-gap: $grid-gap;
   grid-template-rows: auto;
   grid-template-columns: 1fr;
 
@@ -33,6 +33,37 @@
     }
     &--4 {
       background-color: #ed5565;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__sum {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  &__percent {
+    font-size: 11px;
+
+    &--1 {
+      color: #1c84c6;
+    }
+
+    &--2 {
+      color: #23c6c8;
+    }
+
+    &--3 {
+      color: #1ab394;
+    }
+
+    &--4 {
+      color: #ed5565;
     }
   }
 }

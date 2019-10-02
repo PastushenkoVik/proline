@@ -2,11 +2,17 @@
   border-top: 4px solid #e7eaec;
 
   &__title {
+    background-color: #fff;
     height: 50px;
     margin-bottom: 2px;
     padding: 16px 17px 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  &__content {
+    background-color: #fff;
+    padding: 23px;
   }
 }

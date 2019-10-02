@@ -1,0 +1,31 @@
+@import "../../styles/index";
+
+.section__content {
+  display: grid;
+  grid-gap: $grid-gap;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+
+  @include for-tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include for-desktop {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  &__sidebar {
+    display: grid;
+    grid-gap: $grid-gap;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+
+    @include for-tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &--full-width {
+      grid-column: span 2;
+    }
+  }
+}
